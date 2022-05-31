@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Create from "./pages/Create";
 import BlogDetails from "./pages/BlogDetails";
+import NotFound from "./pages/NotFound";
 
 function App() {
     return (
@@ -20,6 +21,9 @@ function App() {
                     </Route>
                     <Route path="/blogs/:id">
                         <BlogDetails/>
+                    </Route>
+                    <Route path="*">
+                        <NotFound/>
                     </Route>
                 </Switch>
             </div>
