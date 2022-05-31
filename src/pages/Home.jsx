@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import BlogList from "../components/BlogList";
 import useFetch from "../util/useFetch";
 
